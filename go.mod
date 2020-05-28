@@ -3,30 +3,41 @@ module github.com/integr8ly/application-monitoring-operator
 go 1.13
 
 require (
-	github.com/coreos/prometheus-operator v0.29.0
+	bitbucket.org/ww/goautoneg v0.0.0-20120707110453-75cd24fc2f2c // indirect
+	github.com/Masterminds/sprig v2.22.0+incompatible // indirect
+	github.com/coreos/prometheus-operator v0.38.0
+	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
+	github.com/elazarl/go-bindata-assetfs v1.0.0 // indirect
+	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f // indirect
+	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/emicklei/go-restful v2.11.1+incompatible // indirect
-	github.com/ghodss/yaml v1.0.1-0.20180820084758-c7ce16629ff4
+	github.com/emicklei/go-restful-swagger12 v0.0.0-20170926063155-7524189396c6 // indirect
+	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-openapi/spec v0.19.5-0.20191022081736-744796356cda
-	github.com/gogo/protobuf v1.3.1 // indirect
-	github.com/hashicorp/golang-lru v0.5.3 // indirect
-	github.com/json-iterator/go v1.1.9 // indirect
+	github.com/golang/lint v0.0.0-20180702182130-06c8688daad7 // indirect
+	github.com/gregjones/httpcache v0.0.0-20190203031600-7a902570cb17 // indirect
+	github.com/lib/pq v1.2.0 // indirect
+	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
+	github.com/maxbrunsfeld/counterfeiter v0.0.0-20181017030959-1aadac120687 // indirect
 	github.com/onsi/ginkgo v1.11.0 // indirect
 	github.com/onsi/gomega v1.8.1 // indirect
 	github.com/openshift/api v3.9.1-0.20190424152011-77b8897ec79a+incompatible
-	github.com/operator-framework/operator-sdk v0.12.1-0.20191112211508-82fc57de5e5b
-	github.com/pkg/errors v0.8.1
-	github.com/prometheus/client_golang v1.3.0 // indirect
+	github.com/operator-framework/go-appr v0.0.0-20180917210448-f2aef88446f2 // indirect
+	github.com/operator-framework/operator-marketplace v0.0.0-20190216021216-57300a3ef3ba // indirect
+	github.com/operator-framework/operator-sdk v0.17.1
+	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/spf13/pflag v1.0.5
-	go.uber.org/zap v1.13.0 // indirect
+	github.com/stevvooe/resumable v0.0.0-20180830230917-22b14a53ba50 // indirect
+	github.com/technosophos/moniker v0.0.0-20180509230615-a5dbd03a2245 // indirect
 	golang.org/x/oauth2 v0.0.0-20191202225959-858c2ad4c8b6 // indirect
-	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
-	k8s.io/api v0.17.0
-	k8s.io/apiextensions-apiserver v0.17.0 // indirect
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v11.0.0+incompatible
-	k8s.io/klog v1.0.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	k8s.io/api v0.17.4
+	k8s.io/apimachinery v0.17.4
+	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a
-	sigs.k8s.io/controller-runtime v0.3.0
+	k8s.io/kubernetes v1.15.4 // indirect
+	sigs.k8s.io/controller-runtime v0.5.2
 )
 
 // Pinned to kubernetes-1.15.4
